@@ -1,0 +1,109 @@
+:root{
+    --color-primary:#c5f6fc;
+    --color-secondary: #216b75;
+}
+
+a, link{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    max-width: 900px;;
+    justify-self: center;
+}
+
+header{
+    display:flex;
+    align-items: center;
+}
+
+header h1{
+    width: 100%;
+    text-align: center;
+}
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menu-icon{
+  cursor: pointer;
+}
+
+input{
+    border-radius: 8px;
+    border:1px solid var(--color-secondary);
+    text-align: center;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    padding: 12px 0;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: .5rem;
+    padding: 8px 12px;
+    background-color: var(--color-primary);
+    border-radius: 50px;
+}
+
+.courses-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    max-width: 100%;
+}
+
+.card-container{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .8rem;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+    padding: 12px;
+
+}
+img{
+    display: flex;
+    object-fit: fill;
+    min-width: 100%;
+    height: max-content;
+    border-radius: 20px;
+}
+
+button{
+    display: flex;
+    background-color: #3fc0d1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--color-secondary);
+}
