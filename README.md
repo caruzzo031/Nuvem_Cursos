@@ -8,7 +8,7 @@
 
 *Tecnologias ultilizadas- HTML e CSS.
 
-*Estrutura do site- Home, pesquisar e cursos.
+*Estrutura do site- Menu, pesquisar e cursos.
 
 *Como executar-  Abrir o arquivo index.html no navegador.
 
